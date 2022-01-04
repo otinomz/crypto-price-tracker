@@ -13,9 +13,9 @@ export default function App() {
       )
       .then((res) => {
         setCoins(res.data);
-        console.log(res.data);
-      });
-  });
+      })
+      .catch((error) => alert("there is an error"));
+  }, []);
 
   return (
     <div className="App">
