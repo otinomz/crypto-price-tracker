@@ -5,6 +5,7 @@ import axios from "axios";
 
 export default function App() {
   const [coins, setCoins] = useState([]);
+  const [search, setSearch] = useState("");
 
   useEffect(() => {
     axios
@@ -16,6 +17,10 @@ export default function App() {
       })
       .catch((error) => alert("there is an error"));
   }, []);
+
+  const handleChange = (e) => {
+    setSearch(e.target.value);
+  };
 
   return (
     <div className="coin-app">
