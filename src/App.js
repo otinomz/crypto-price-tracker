@@ -35,6 +35,7 @@ export default function App() {
             type="text"
             placeholder="Search name of coins"
             className="coin-input"
+            onChange={handleChange}
           />
         </form>
       </div>
