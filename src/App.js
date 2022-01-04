@@ -18,9 +18,21 @@ export default function App() {
   }, []);
 
   return (
-    <div className="App">
+    <div className="coin-app">
       <h1>Crypto Price Tracker with search feature</h1>
       <p>Search a currency</p>
+
+      <div className="coin-search">
+        <h1 className="coin-text">Search a currency</h1>
+
+        <form>
+          <input
+            type="text"
+            placeholder="Search name of coins"
+            className="coin-input"
+          />
+        </form>
+      </div>
     </div>
   );
 }
