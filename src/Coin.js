@@ -7,7 +7,7 @@ export default function App({
   price,
   volume,
   priceChange,
-  marketCap
+  marketcap
 }) {
   return (
     <div className="coin-cointainer">
@@ -27,8 +27,8 @@ export default function App({
             <p className="coin-percent green">{priceChange.toFixed(2)}%</p>
           )}
 
-          <p className="coin-marketCap">
-            Mkt Cap: ${marketCap.toLocaleString()}
+          <p className="coin-marketcap">
+            Mkt Cap: ${marketcap.toLocaleString()}
           </p>
         </div>
       </div>
