@@ -34,7 +34,6 @@ export default function App() {
     <div className="coin-app">
       <h1>Crypto Price Tracker with search feature</h1>
       <div className="coin-search">
-        <h1 className="coin-text">Search a currency</h1>
         <form>
           <input
             type="text"
