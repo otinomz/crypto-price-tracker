@@ -111,17 +111,16 @@ body {
 
 .coin-price {
   width: 110px;
-  margin-right: 30px;
 }
 .coin-volume {
-  width: 230px;
+  width: 200px;
 }
 .coin-marketcap {
-  width: 155px;
+  width: 240px;
 }
 
 .coin-percent {
-  width: 100%;
+  width: 80px;
 }
 
 .coin-percent.red {
