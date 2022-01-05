@@ -2,3 +2,12 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+/* this is the styles for the whole component */
+.coin-percent.red {
+  color: red;
+}
+
+.coin-percent.green {
+  color: green;
+}
