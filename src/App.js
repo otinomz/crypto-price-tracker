@@ -57,6 +57,7 @@ export default function App() {
             volume={coin.market_cap}
             price={coin.current_price}
             priceChange={coin.price_change_percentage_24h}
+            marketCap={coin.market_cap_change_24h}
           />
         );
       })}
