@@ -1,16 +1,12 @@
 /* this is the styles for the whole component */
 
-/* <style> */
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Fascinate+Inline&family=Poppins:wght@200;300&display=swap");
-/* </style> */
 
 * {
   margin: 0;
   padding: 0;
   font-family: "Roboto";
   color: #fff;
-  font-family: "Catamaran", sans-serif;
-  font-family: "Fascinate Inline", cursive;
   font-family: "Poppins", sans-serif;
 }
 
@@ -86,9 +82,9 @@ body {
   min-width: 300px;
 }
 
-.coin h1 {
+h1 {
   font-size: 16px;
-  width: 150px;
+  /* text-align: center; */
 }
 
 .coin img {
@@ -99,6 +95,10 @@ body {
 
 .coin-symbol {
   text-transform: uppercase;
+}
+
+.coin h1 {
+  width: 170px;
 }
 
 .coin-data {
