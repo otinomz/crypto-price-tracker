@@ -19,13 +19,17 @@ export default function App() {
       .catch((error) => alert("there is an error"));
   }, []);
 
+  // to handle name change
   const handleChange = (e) => {
     setSearch(e.target.value);
   };
 
+  // mapping through the coins to filter them
+  // when searching through a particular  value name
   const filteredCoins = coins.filter((coin) =>
     coin.name.toLowerCase().includes(search.toLowerCase())
   );
+
   return (
     <div className="coin-app">
       <h1>Crypto Price Tracker with search feature</h1>
@@ -42,6 +46,7 @@ export default function App() {
           />
         </form>
       </div>
+      {/* applying some JSX below for filtering coins */}
       {filteredCoins.map((coin) => {
         return (
           <Coin
