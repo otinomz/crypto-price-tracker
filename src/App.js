@@ -47,7 +47,7 @@ export default function App() {
           <Coin
             key={coin.id}
             name={coin.name}
-            image={coin.image}
+            coinimage={coin.image}
             symbol={coin.symbol}
             volume={coin.market_cap}
             price={coin.current_price}
